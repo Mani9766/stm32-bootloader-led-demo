@@ -10,6 +10,8 @@ The goal is to showcase bootloader design, memory layout, and controlled applica
 ---
 
 ## 📦 Block Diagram
+
+```
 +-------------------+
 |   STM32F407 MCU   |
 +-------------------+
@@ -25,8 +27,7 @@ The goal is to showcase bootloader design, memory layout, and controlled applica
        |
        v
    Jump to Main
-
-
+```
 ---
 
 ## 🔌 Interface Specifications
@@ -42,6 +43,7 @@ The goal is to showcase bootloader design, memory layout, and controlled applica
 ---
 
 ## 🔄 State Machine
+```
 [RESET]
    |
    v
@@ -58,10 +60,11 @@ The goal is to showcase bootloader design, memory layout, and controlled applica
    |
    v
 [BLINK_LED_FOREVER]
-
+```
 ---
 
 ## 📑 Sequence Diagram
+```
 Reset
   |
   v
@@ -81,7 +84,7 @@ Main executes (Sector 2)
   |
   v
 Blink LED forever
-
+```
 ---
 
 ## 🛡️ Threat Model
@@ -104,6 +107,7 @@ Blink LED forever
 ---
 
 ## 📂 Repository Structure
+```
 /bootloader
 │   ├── Core
 │   │   ├── Inc/
@@ -130,7 +134,7 @@ Blink LED forever
 
 /docs
 │   ├── README.md
-
+```
 ---
 
 ## 📌 Notes
