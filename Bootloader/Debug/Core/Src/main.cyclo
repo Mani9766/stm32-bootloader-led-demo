@@ -1,0 +1,6 @@
+../Core/Src/main.c:59:6:jump_to_application	4
+../Core/Src/main.c:91:5:main_bootloader	2
+../Core/Src/main.c:144:6:SystemClock_Config	3
+../Core/Src/main.c:191:13:MX_CRC_Init	2
+../Core/Src/main.c:217:13:MX_GPIO_Init	1
+../Core/Src/main.c:364:6:Error_Handler	1
